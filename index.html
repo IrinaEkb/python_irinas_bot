@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram Bot</title>
+    <title>Мой Telegram Бот</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            background-color: #ADD8E6;
+            color: #333;
+        }
+        .btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 40px;
+            margin: 20px 0;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome Cryptocurrency Bot</h1>
     <p>Click the button below to see the price of cryptocurrency!</p>
-    <a href="https://t.me/python_irinas_bot" target="_blank"><button>Check price</button></a>
+    <a href="https://t.me/python_irinas_bot" target="_blank"><button class="btn">Check price</button></a>
+    <!-- Пример добавления статических кнопок с названиями криптовалют -->
+    <div>
+        <button class="btn">Bitcoin</button>
+        <button class="btn">Ethereum</button>
+        <button class="btn">Doge</button>
+        <!-- Добавьте другие кнопки по аналогии -->
+    </div>
 </body>
 </html>
